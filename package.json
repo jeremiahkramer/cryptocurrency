@@ -1,0 +1,22 @@
+{
+  "name": "CryptoDaily",
+  "version": "1.0.0",
+  "description": "Crypto Daily Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OSU-CS290-Sp18/final-project-osu-ccc.git"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.11",
+    "mongodb": "^3.0.10"
+  },
+  "devDependencies": {}
+}

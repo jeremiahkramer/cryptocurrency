@@ -1,0 +1,31 @@
+
+   [
+
+      {
+       "coinFullName": "Icon",
+       "coinName": "icx",
+       "currentPrice": 2.56,
+       "priceChange": -9.51,
+       "marketCap": 990015027,
+       "twentyFourHrVolume": 33665500,
+       "dataset": [2.79,2.75,2.70,2.74,2.71,2.66,2.81,2.67,2.55,2.44,2.75,2.74,2.69,2.78,2.65,2.56,2.45,2.54,2.76,2.96,2.45,2.46,2.55,2.56]
+     },
+      {
+        "coinFullName": "Request Network",
+        "coinName": "req",
+        "currentPrice": 0.138,
+        "priceChange": -5.67,
+        "marketCap": 96596509	,
+        "twentyFourHrVolume": 638253,
+        "dataset": [0.144,0.143,0.143,0.142,0.142,0.144,0.145,0.147,0.139,0.139,0.137,0.138,0.136,0.136,0.139,0.133,0.136,0.137,0.132,0.135,0.138,0.136,0.137,0.138]
+      },
+      {
+        "coinFullName": "Vechain",
+        "coinName": "ven",
+        "currentPrice": 3.84,
+        "priceChange": -3.03,
+        "marketCap": 2022064363,
+        "twentyFourHrVolume": 87619700,
+        "dataset": [4.01,4.00,3.97,3.95,3.94,3.91,3.97,3.92,3.87,3.88,3.95,3.97,3.99,3.92,3.88,3.84,3.81,3.85,3.86,3.89,3.87,3.87,3.85,3.84]
+      }
+   ]
