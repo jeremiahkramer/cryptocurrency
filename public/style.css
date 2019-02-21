@@ -1,0 +1,379 @@
+#cr{
+	font-size: 9px;
+	position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+a{
+	color: white;
+}
+
+button:focus{
+	outline: none;
+}
+
+input:focus{
+	outline: none;
+}
+
+body{
+	font-family: 'Roboto Condensed';
+	background-color: rgb(119,136,153, .25);
+}
+
+#titleBanner{
+	padding-left: 22px;
+	border: 1px solid rgba(48, 162, 255, .7);
+	background-color: rgb(48, 162, 255);
+	box-shadow: 0 10px 6px -6px #777;
+	display: flex;
+	width: 100%;
+}
+
+#osu{
+	float: right;
+	width: 45px;
+	height: 45px;
+}
+
+#fb{
+	width: 75px;
+	height: 45px;
+}
+
+#siteName{
+	text-align: left;
+	font-size: 35px;
+	color: #F5F5F5;
+	position: relative;
+	top: -5px;
+}
+
+.searchbar{
+	position: relative;
+	margin-left: 55px;
+	height: 41px;
+	width: 550px;
+	padding-left: 15px;
+	margin: auto;
+	margin-left: 23%;
+}
+	#search{
+		background-color: #004985;
+		margin-left: 55px;
+		border: 1px solid rgb(48, 162, 255);
+		border-radius: 20px;
+		font-size: 25px;
+		height: 41px;
+		width: 550px;
+		padding-left: 15px;
+		margin: auto;
+		margin-left: 23%;
+	}
+
+	#search:hover{
+		cursor: pointer;
+	}
+
+	#search:focus{
+		background-color: white;
+	}
+
+
+	.search-button{
+		position: relative;
+		left: 118%;
+		top: -91%;
+		height: 29px;
+		width: 30px;
+	}
+		.search-button:hover{
+			cursor: pointer;
+		}
+
+	.coin-container{
+		display: grid;
+  		grid-template-columns: auto auto auto;
+		width: 90%;
+		height: 85%;
+		position: relative;
+		float:right;
+		left: -5%;
+		top: 55px;
+	}
+
+.coin{
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: #f5f5f5;
+	box-shadow: 7px 7px 5px grey;
+	margin: 10px;
+	border-radius: 2px;
+}
+
+.name{
+	width: 100%;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+	.coin-full{
+		margin-left: 35%;
+	}
+		/*made for btc*/
+		.coin-icon{
+			width: 26px;
+			height: 26px;
+			position: relative;
+			left: 34%;
+			top: 5px;
+		}
+			/*adjust width for other coin image sizes*/
+			#eth-icon{
+				width: 17px;
+			}
+			#xrp-icon{
+				width: 22px;
+				height: 24px;
+			}
+
+.price{
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 5%;
+}
+
+/*font size inside the coin tiles*/
+.price, .volume-marketCap{ 
+	font-size: 11.5px;
+}
+.current-price-box{
+	/*border: 1px solid purple;*/
+	margin-left: 5%;
+	margin-right: -4%;
+}
+	.currency{
+		margin-left: 1%;
+		margin-right: -.3%;
+	}
+	.price-value{
+		margin-left: -.1%;
+	}
+
+
+.current-change-box{
+	/*border: 1px solid purple;*/
+	margin-left: 8%;
+	margin-right: 35px;
+}
+	.price-change-value{
+		margin-left: 1%;
+	}
+	.percent{
+		margin-left: -.6%;
+	}
+
+/* --- marketCap and Volume --- */
+	.marketCap-value{
+		margin-left: .05%;
+	}
+	.marketCap .currency{
+		margin-left: 5%;
+	}
+
+
+.twentyFourHrVolume-value{
+	margin-left: 1.2%;
+}
+
+
+/*should have just made a label class :/ */
+.price-label, .price-change-label, .marketCap-label, .twentyFourHrVolume-label{
+	border: 1px solid rgba(0, 0, 255, .8);
+	background-color: rgba(48, 162, 255, .2);
+	border-radius: 4.5px;
+	padding: .21%;
+	padding-left: .8%;
+}
+	/*not applying correctly on this label for some reason - personal adjustment*/
+	.twentyFourHrVolume-label{
+		padding-right: .81%;
+		margin-left: -4.2%;
+	}
+
+
+.marketCap-label{
+	margin-left: 5%;
+	margin-right: -4%;
+}
+
+.twentyFourHrVolume{
+	margin-left: 8%;
+	margin-right: 55px;
+}
+
+.graph-container{
+	margin: 3%;
+}
+
+.sign-red{
+	color: red;
+}
+
+.sign-green{
+	color: green;
+}
+
+.nav-container{
+	width: 3%;
+	height: 25%;
+	margin-left: -125px;
+	margin-top: 70px;
+}
+
+#navbar{
+	position: fixed;
+	margin: auto;
+	background-color: rgb(48, 162, 255);
+	border: solid 2px none;
+	border-radius: 3px;
+	height: 500px;
+	width: 130px;
+}
+
+/*actual options within the navbar*/
+nav div{
+	position: relative;
+	left: -10%;
+	height: 30px;
+	padding: 15%;
+}
+
+div a{
+	padding-left: 5%;
+	padding-bottom: 6.5%;
+}
+
+nav div:hover{
+	cursor: pointer;
+}
+
+.link-container {
+	margin: 10px;
+	font-size: 18px;
+	width: 71.6%;
+	background-color: rgb(48, 162, 255);
+	position: relative;
+	top: 10%;
+}
+
+.link-container a{
+	color: white;
+}
+
+.nav-link{
+	display:inline-block;
+}
+
+a:visited,  a:link {
+	 color: black;
+	 text-decoration: none;
+}
+
+#image-container{
+	display: inline-block;
+	margin: auto;
+	margin-right: 3%;
+}
+
+.logos{
+	padding: 5px;
+}
+
+.logos:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+#fb{
+	height: 32px;
+	width: 52px;
+	margin-left: -8%;
+}
+
+#email{
+	position: relative;
+	top: 2px;
+	height: 36px;
+	width: 35px;
+}
+
+#osu{
+	position: relative;
+	top: 5px;
+	height: 31px;
+	width: 33px;
+}
+
+#btc-star, #eth-star, #xrp-star {
+	float:right;
+	padding-right: 10px;
+	background:none;
+	border: none;
+}
+
+.fa-star {
+	color:#FFDF00 ;
+}
+.fa-star:hover {
+	cursor:pointer;
+}
+
+.error-container {
+  margin-top: 50px;
+  margin-left: 35%;
+  text-align: center;
+}
+	.error-container h2 {
+	  margin: 10px 0;
+	  font-size: 106px;
+	  font-weight: 100;
+	}
+
+	.error-container h3 {
+	  margin: 10px 0;
+	  font-size: 46px;
+	  font-weight: 400;
+	}
+
+
+#addCoin{
+	position: relative;
+	left: 17%;
+	top: 33px;
+}
+	#explain{
+		font-size: 30px;
+	}
+
+		#coin-input{
+			position: relative;
+			top: 40px;
+			left: 28%;
+			width: 250px;
+			font-size: 23.6px;
+			padding-left: 5px;
+		}
+
+		#submit-coin-input{
+			position: relative;
+			right: .6%;
+			left: 27.5%;
+			top: 38.8px;
+			font-family: 'Roboto Slab';
+			font-style: bold;
+			font-size: 20px;
+			height: 34.6px;
+			border: 1px solid rgba(0, 0, 255, .8);
+			background-color: rgba(48, 162, 255, .3);
+		}	

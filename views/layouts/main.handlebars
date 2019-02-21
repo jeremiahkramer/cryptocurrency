@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Crypto Daily</title>
+
+    <link rel="shortcut icon" href="coin.ico" />
+
+    <!-- This is a stylesheet that includes the font you should use: Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Changa:700|Roboto+Condensed:700" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" media="screen">
+
+    <!-- This script incorporates SVG icons from Font Awesome: http://fontawesome.com/ -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous" defer></script>
+    <!-- moment.js for time -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.13.0/moment.min.js" defer></script>
+    <!-- chart.js for graphs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.runtime.js" defer></script>
+    <!-- JQuery Code -->
+    <script type="text/javascript" src="script.js" defer></script>
+    <!-- star -->
+    <script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" defer></script>
+  </head>
+
+  <body id= "body">
+    <p id = cr> © 2018 CCC </p>
+
+    <div id = "titleBanner">
+
+      <h1 id = "siteName">Crypto Daily</h1>
+
+      <div class = "searchbar">
+        <input id = "search" type="text" placeholder="Search.." onfocus="this.placeholder = ''">
+          <img src="search.png" class ="search-button">
+      </div>
+
+        <div id = "image-container">
+
+          <img src="fb.png" class ="logos" id = 'fb'>
+
+          <img src="osu.png" class ="logos" id = 'osu'>
+
+          <img src="email.png" class ="logos" id = 'email'>
+
+        </div>
+
+    </div>
+
+<!-- /////////////////////////////////////////////////////// B I T C O I N ///////////////////////////////////////////////////////////////// -->
+
+<div class = "coin-container">
+
+    {{{body}}}
+
+</div>  <!-- end main content -->
+
+    <!-- ==================Nav Bar ========================================= -->
+     <div class="nav-container">
+        <nav id = 'navbar'>
+
+          <div class="link-container" id = "nav1">
+            <a href='#' class="nav-link">Home</a>
+          </div>
+
+          <div class="link-container" id = "nav2">
+            <a href='#' class="nav-link">Alternative Coins </a>
+          </div>
+
+          <div class="link-container" id = "nav3">
+            <a href='#' class="nav-link">Add a Coin</a>
+          </div>
+
+          <div class="link-container" id = "nav4">
+            <a href='#' class="nav-link">Blockchain Viewer</a>
+          </div>
+          <div class="link-container" id = "nav5">
+            <a href='#' class="nav-link">Contact Us</a>
+          </div>
+
+        </nav>
+    </div>
+
+<!-- ======================= End Nav Bar ===================================== -->
+  </body>
+
+</html>
